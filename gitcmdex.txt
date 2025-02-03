@@ -23,7 +23,6 @@ Your branch is up to date with 'origin/main'.
 Changes to be committed:
   (use "git restore --staged <file>..." to unstage)
         new file:   new2.txt
-
 PS C:\Users\admin\OneDrive\Desktop\github\Myfirstgitrepo> git commit -m "new2.txt file added" 
 [main 2120b10] new2.txt file added
  1 file changed, 0 insertions(+), 0 deletions(-)
