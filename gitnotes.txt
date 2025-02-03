@@ -1,0 +1,69 @@
+Hi Github
+welcome
+---------------------
+
+C:\Users\admin>git config --global user.name "chandrucns911"
+
+C:\Users\admin>git config --global user.email "chandrucns911+git@gmail.com"
+
+C:\Users\admin>
+
+---------------------
+
+
+git
+----------
+git clone <repolink>
+cd <gitdirectoy>
+git status
+create a file
+git status (check untracked file with green clor dot)
+git add index.html
+git status (index added)
+git commit -m "index.html file added"
+git push origin main (the files are avilable in git website )
+git pull (when a file added in gitrepo on website will get locally)
+cd ..
+cd secondrepo
+create a file index.html
+git init (create .git in the folder)
+create a another file
+git status
+git add . (adding all files to the repo)
+git status
+git commit -m "file added"
+create the secondrepo on git website
+git remote <add origin secondrepolink>
+git push origin main (error will through)
+git branch
+git branch -M main
+git branch
+git push origin main(the files are avilable in git website)
+git branch -a (it will show  how many brach's are there)
+
+goto git website  click on any one repo and click on the main
+create the gitbrach1 and click on the create brach from main
+
+run git pull to get the brach in local folder
+git branch -a (we are in the main brach it will show with green color )
+git checkout gitbrach1 (switch to another brach)
+git branch -a
+create a file on that brach (git status,git add . , git commit -m "file added" , git push origin gitbrach1)
+ go to git website to check the new file in new brach
+git checkout main( the new file not visible in this brach)
+
+git diff gitbrach1 (check the added file in the another brach with main brach)
+
+git merge gitbrach1 (add the file to the main brach )
+git push origin main (get the file in git website) 
+git branch newbranch2 (creating the brach in the command line)
+git branch -a
+git checkout newbranch2
+git branch
+added a new file on that branch
+git push origin newbranch2 (it will add the new brach to the git website)
+go to git website click on the pull request
+base:main  compare:newbrach2  in the below click on the create pull request and add your comments for the request to 
+
+the boss will check on accept the pull request
+
