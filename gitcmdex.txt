@@ -1,8 +1,4 @@
-0hi all
-
-Warning: PowerShell detected that you might be using a screen reader and has disabled PSReadLine for compatibility purposes. If you want to re-enable it, run 'Import-Module PSReadLine'.
-
-PS C:\Users\admin\OneDrive\Desktop\github> git clone https://github.com/chandrucns911/Myfirstgitrepo.git
+gitPS C:\Users\admin\OneDrive\Desktop\github> git clone https://github.com/chandrucns911/Myfirstgitrepo.git
 Cloning into 'Myfirstgitrepo'...
 remote: Enumerating objects: 6, done.
 remote: Counting objects: 100% (6/6), done.
