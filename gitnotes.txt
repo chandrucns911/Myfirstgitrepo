@@ -67,7 +67,6 @@ base:main  compare:newbrach2  in the below click on the create pull request and 
 the boss will check on accept the pull request
 
 
-
 git in linux
 ------------
 
@@ -85,8 +84,17 @@ link the repo with git hub repo(git config )
 git commit -m "added the file" file1 ( for single commit)
 git commit -m "added the file"   (for all files commit)
 git remote add origin <git repo link>
-git push origin master
+git push origin master (the file will be added to your gitrepo in github)
 ask for username
 ask for passsword
 
+git clone
+-----
+git clone <git repo link>
+for history check on the repo beside commits in github
+git log (for in cli view)
 
+
+remove a mistakenly added file
+
+git reset --hard <commit id>
