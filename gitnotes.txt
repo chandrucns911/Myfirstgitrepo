@@ -94,7 +94,14 @@ git clone <git repo link>
 for history check on the repo beside commits in github
 git log (for in cli view)
 
-
 remove a mistakenly added file
-
+-----------------------------
 git reset --hard <commit id>
+
+
+git branch
+----------
+git checkout -b dup (switch to dup branch) 
+git checkout master (switch to main branch)
+git branch -d dup (delete the dup brach)
+git branch (show how many brach is there)
