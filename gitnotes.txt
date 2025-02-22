@@ -16,7 +16,7 @@ git clone <repolink>
 cd <gitdirectoy>
 git status
 create a file
-git status (check untracked file with green clor dot)
+git status (check untracked file with green coluor dot)
 git add index.html
 git status (index added)
 git commit -m "index.html file added"
@@ -65,4 +65,28 @@ go to git website click on the pull request
 base:main  compare:newbrach2  in the below click on the create pull request and add your comments for the request to 
 
 the boss will check on accept the pull request
+
+
+
+git in linux
+------------
+
+mkdir chandru
+cd chandru
+git init  (create the .git file on the folder)
+touch file1  
+touch file2
+git status (both files are not in the repo)
+git add file1
+git add file2
+git add * (all file under that folder)
+git status (both file added to the repo)
+link the repo with git hub repo(git config )
+git commit -m "added the file" file1 ( for single commit)
+git commit -m "added the file"   (for all files commit)
+git remote add origin <git repo link>
+git push origin master
+ask for username
+ask for passsword
+
 
