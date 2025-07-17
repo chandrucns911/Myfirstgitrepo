@@ -43,6 +43,7 @@ git branch -a (it will show  how many brach's are there)
 git branch -a (we are in the main brach it will show with green color )
 git checkout gitbrach1 (switch to another brach)
 git branch -a
+
 ->create a file on that brach (git status,git add . , git commit -m "file added" , git push origin gitbrach1)
 ->go to git website to check the new file in new brach
 git checkout main( the new file not visible in this brach)
@@ -55,6 +56,7 @@ git branch newbranch2 (creating the brach in the command line)
 git branch -a
 git checkout newbranch2
 git branch
+
 ->added a new file on that branch
 git push origin newbranch2 (it will add the new brach to the git website)
 ->go to git website click on the pull request
